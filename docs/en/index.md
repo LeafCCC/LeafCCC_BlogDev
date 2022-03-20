@@ -2,9 +2,9 @@
 home: true
 heroImage: images/profilePhoto.jpeg
 heroText: LeafCCC
-tagline: 研一🐕一枚 o(*￣▽￣*)ブ
-actionText: 个人介绍 →
-actionLink: /guide/
+tagline: Just a Postgraduate~ o(*￣▽￣*)ブ
+actionText: About me →
+actionLink: /en/guide/
 
 ---
 ::: slot footer
