@@ -2,7 +2,7 @@
 home: true
 heroImage: images/profilePhoto.jpeg
 heroText: LeafCCC
-tagline: Just a Postgraduate~ o(*￣▽￣*)ブ
+tagline: Always be avid
 actionText: About me →
 actionLink: /en/guide/
 

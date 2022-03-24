@@ -2,7 +2,7 @@
 home: true
 heroImage: images/profilePhoto.jpeg
 heroText: LeafCCC
-tagline: 研一🐕一枚 o(*￣▽￣*)ブ
+tagline: Always be Avid
 actionText: 个人介绍 →
 actionLink: /guide/
 
