@@ -9,6 +9,7 @@ module.exports = {
       logo: '/images/logo.png',// 注意图片放在 public 文件夹下
       
       nav:[ // 导航栏配置
+       {text: 'About', link: '/about/'}, 
        {text: 'My github', link: 'https://github.com/LeafCCC'},   
       ],      
     },
