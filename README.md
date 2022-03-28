@@ -7,7 +7,7 @@
 
 ### 关于本站
 
-> 本站基于尤大的[vuepress](https://github.com/vuejs/vuepress)搭建，是一个纯前端的静态页面项目，上手简单，部署在github上的话十分方便，可以在短时间内迅速搭建起属于自己的一个简单博客。
+> 本站地址为[leafccc.github.io](https://leafccc.github.io)，其基于尤大的[vuepress](https://github.com/vuejs/vuepress)搭建，是一个纯前端的静态页面项目，上手简单，部署在github上的话十分方便，可以在短时间内迅速搭建起属于自己的一个简单博客。
 
 
 ### 二、教程
