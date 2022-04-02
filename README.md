@@ -200,6 +200,36 @@ title: 个人介绍
 ```
 最后，en以及about文件夹同理，可以参考我[github](https://github.com/LeafCCC/LeafCCC_BlogDev)上的内容，至此，文件的编写内容便完成了。
 
-### 写在最后的碎碎念
+#### 3. 部署到github
+在github中创新xxx.github.io的仓库，例如[leafccc.github.io](https://leafccc.github.io),部署成功后域名即leafccc.github.io,之后，在本地的根目录下创建deploy.sh，填写以下的内容：
+```sh
+#! /bin/bash
+
+# 确保脚本抛出遇到的错误
+set -e
+
+# 生成静态文件
+npm run build
+
+# 进入生成的文件夹
+cd docs/.vuepress/dist
+
+git init
+git add -A
+git commit -m 'deploy'
+
+# 如果发布到 https://<USERNAME>.github.io  填写你刚刚创建的仓库地址
+git push -f git@github.com:LeafCCC/LeafCCC.github.io.git master
+
+cd -
+```
+
+这里面有个坑，首先，如果你是在Linux上搭建，那么git与shell脚本的运行相信都不是大问题，但是如果你是在windows上，你需要安装git以及其git bash用来在命令行里运行shell脚本。其次，因为某些原因，git的访问目前有一定问题，需要梯子的帮助。
+
+解决以上的这些问题，我们就能让别人看到属于自己的小网站啦~
+
+### 三、写在最后的碎碎念
 
 > 一直有搭建一个属于自己的简单博客的想法，最近了解到了Vuepress(学了下发现简直是少儿编程hh, ps:尤大nb!)，于是乎便拿来练练手，也顺便熟悉了一下git的使用。因为本站是纯前端的项目，对后端数据库等锻炼不足，后续准备用Django+Vue重新搭建一个网站。
+
+> 最后，如果你在搭建网站中有任何问题，也可以联系我，我会尽力作出解答。
