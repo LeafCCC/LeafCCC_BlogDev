@@ -6,7 +6,6 @@ title: 个人介绍
 - **邮 箱：**&ensp;<a href="mailto:sjtu.zcc@outlook.com">sjtu.zcc@outlook.com</a>
 - **GitHub ：**&ensp;<a href="mailto:www.github.com/LeafCCC">www.github.com/LeafCCC</a>
 - **个人网站：**&ensp;<a href="mailto:leafccc.github.io">leafccc.github.io</a>
-- **求职意向：**&ensp;Golang 后端开发
 
 ## 📚 教育经历
 
@@ -30,8 +29,11 @@ title: 个人介绍
 - 技术栈：Kitex + gin + thrift + MySQL
 - 项目介绍：一个极简版抖音的服务器端，实现了用户的注册与登录，视频投稿与播放，以及点赞评论等功能
 - 主要工作：
+
     1、使用jwt完成对用户身份的认证
+
     2、设计用户模块的相关数据结构，并使用事务机制确保数据库操作的整体性
+
     3、使用rpc框架Kitex完成用户侧的服务解耦
 
 
@@ -41,6 +43,6 @@ title: 个人介绍
 
 
 ## 📝 工作意向
- - 后端岗皆可
+ - 后端岗皆可,golang优先
 
 
