@@ -4,8 +4,8 @@ title: 个人介绍
 ## 👉 基本信息
 
 - **邮 箱：**&ensp;<a href="mailto:sjtu.zcc@outlook.com">sjtu.zcc@outlook.com</a>
-- **GitHub ：**&ensp;<a href="www.github.com/LeafCCC">www.github.com/LeafCCC</a>
-- **个人网站：**&ensp;<a href="leafccc.github.io">leafccc.github.io</a>
+- **GitHub ：**&ensp;<a href="https://www.github.com/LeafCCC/">www.github.com/LeafCCC</a>
+- **个人网站：**&ensp;<a href="https://leafccc.github.io">leafccc.github.io</a>
 
 ## 📚 教育经历
 
